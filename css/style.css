@@ -38,8 +38,22 @@ body {
 
 .conteudoPrincipal {
 	margin-top: 20px;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    height: 1024px;
+    background-repeat: no-repeat;
+    
+
 }
+
+.p{
+
+    display: flex;
+    align-items: center;
+    color: #25D285;
+
+}
+
 
 .subtitulo {
 	font-weight: bold;
