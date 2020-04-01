@@ -9,7 +9,7 @@ body {
 }
 
 .cabecalhoPrincipal {
-	background-color: #FFF;
+	background-color:#000080;
 	padding: 20px 0;
 }
 
@@ -24,42 +24,58 @@ body {
 	color: inherit;
 }
 
-.cabecalhoPrincipal-nav-link {
-	padding: 10px;
-	margin-bottom: 10px;
-	color: #9799A6;
-	background-color: #FFF;
-	text-decoration: none;
-	transition: .5s;
-	display: block;
 
-	border-bottom: 1px solid #9799A6;
-}
 
 .conteudoPrincipal {
 	margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: justify;
-    height: 1024px;
-    background-repeat: no-repeat;
-    
+	margin-bottom: 20px;
+	font-family: 'Shadows Into Light', cursive; 
+	padding-bottom: 10px;  
 
 }
 
-.p{
-
-    display: flex;
-    align-items: center;
-    color: #25D285;
+.navbar{
+	background-color: navy;
+	height: 70px;
 
 }
 
+.fonte-titulo{
+	font-family: 'Caveat', cursive;
+	color:navy;
+}
+.imagem-carrossel-1{
+	object-fit: cover;
+	object-position: 0 80%;
+	height: 400px;
+	
+}
+
+.imagem-carrossel-2{
+	object-fit: cover;
+	object-position: 0 0%;
+	height: 400px;
+}
+
+.imagem-carrossel-3{
+	object-fit: cover;
+	object-position: 0 2.5%;
+	height: 400px;
+}
+
+.textoPrincipal{
+color: black;
+font-family: 'Caveat', cursive;
+font-size: 25px;
+padding-bottom: 10px;
+
+}
 
 .subtitulo {
 	font-weight: bold;
-	font-size: 32px;
+	font-size: 50px;
+	font-family: 'Caveat', cursive;
 	margin-bottom: 10px;
-	text-align: center;
 }
 
 .conteudoPrincipal-cursos-link {
