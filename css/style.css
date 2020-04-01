@@ -65,9 +65,10 @@ body {
 
 .textoPrincipal{
 color: black;
-font-family: 'Caveat', cursive;
-font-size: 25px;
-padding-bottom: 10px;
+line-height: 1.5;
+font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+padding-bottom: 20px;
 
 }
 
