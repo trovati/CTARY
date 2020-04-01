@@ -192,6 +192,12 @@ padding-bottom: 20px;
 	cursor: pointer;
 	
 }
+.mapaTexto{
+	font-family: 'Ubuntu', cursive;
+	font-size: 20px;
+
+
+}
 
 .rodapePrincipal-contatoForm-submit,
 .rodapePrincipal-contatoForm-emailInput {
