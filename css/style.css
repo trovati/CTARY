@@ -36,28 +36,33 @@ body {
 
 .navbar{
 	background-color: navy;
-	height: 70px;
 
 }
 
 .fonte-titulo{
 	font-family: 'Caveat', cursive;
-	color:navy;
+	color: white;
 }
+
 .imagem-carrossel-1{
 	object-fit: cover;
-	object-position: 0 80%;
 	height: 400px;
 	
 }
 
 .imagem-carrossel-2{
 	object-fit: cover;
-	object-position: 0 0%;
+	object-position: 0 50%;
 	height: 400px;
 }
 
 .imagem-carrossel-3{
+	object-fit: cover;
+	object-position: 0 2.5%;
+	height: 400px;
+}
+
+.imagem-carrossel-4{
 	object-fit: cover;
 	object-position: 0 2.5%;
 	height: 400px;

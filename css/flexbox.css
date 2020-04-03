@@ -24,10 +24,12 @@
 }
 
 .horario{
+
     display: flex;
-    justify-content: space-around;
-    width: 50%;
-    margin-left: 24%;
+    margin: 2%;
+    width: 98%;
+    align-items: center;
+    justify-content: center;
     
 
 
