@@ -39,6 +39,10 @@ body {
 
 }
 
+.banner{
+	object-fit: cover;
+}
+
 .fonte-titulo{
 	font-family: 'Caveat', cursive;
 	color: white;
