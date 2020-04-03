@@ -23,6 +23,17 @@
     width: 100%;
 }
 
+.horario{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 24%;
+    
+
+
+}
+
+
 
 
 

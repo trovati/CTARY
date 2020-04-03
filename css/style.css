@@ -83,11 +83,24 @@ padding-bottom: 20px;
 	margin-bottom: 10px;
 }
 
+.atletas{
+	background-color:#324C64;
+}
+
+.instagram {
+	padding-left: 45%;
+}
+
+
 .apoio{
 	font-size: 30px;
 	font-weight: bold;
 	font-family: 'Caveat', cursive;
 color: black;
+}
+
+.banner{
+	width: 100%;
 }
 
 .conteudoPrincipal-cursos-link {
