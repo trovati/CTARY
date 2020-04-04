@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CT ARY | VOLÊI DE PRAIA</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar pb-3 navbar-expand-lg navbar-dark fixed-top">
+			<a class="navbar-brand" href="#">CT ARY</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="atletas.html">Equipe</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sobre.html.html">Galeria</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Contato</a>
+						</li>
+					</ul>
+				</div>
+		</nav>
+    </header>
+<!--Corpo do Texto-->
+    <main>
+        <section>
+            
+        </section>
+    </main>
+
+
+    <!-- Modal -->
+  <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Entre em Contato</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<form>
+				<div class="form-group">
+					<label for="formGroupExampleInput">Nome Completo</label>
+    				<input type="text" class="form-control mt-1 mb-3" id="formGroupExampleInput" placeholder="José da Silva">
+					<label for="formGroupExampleInput">Telefone</label>
+    				<input type="phone" class="form-control mt-1 mb-3" id="formGroupExampleInput" placeholder="(XX)9-XXXX-XXXX">
+  
+				  <label for="exampleFormControlInput1">E-mail</label>
+				  <input type="email" class="form-control mt-1 mb-3" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+				</div>
+				<div class="form-group">
+				  <label for="exampleFormControlSelect1">Categoria</label>
+				  <select class="form-control mt-1 mb-3" id="exampleFormControlSelect1">
+					<option>Sub-17</option>
+					<option>Sub-19</option>
+					<option>Sub-21</option>
+					<option>Adulto</option>
+					<option>Master</option>
+				  </select>
+				</div>
+				
+				<div class="form-group">
+				  <label for="exampleFormControlTextarea1">Dúvida</label>
+				  <textarea class="form-control mt-1 mb-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+			  </form>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+		  <button type="submit" class="btn btn-primary">Enviar</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+    <!--RODAPÉ-->
+    <footer>
+		
+		<section class="rodapePrincipal-patrocinadores">
+				<h3 class="text-center pb-3 pb-3 apoio">Apoio</h3>
+				<ul class="rodapePrincipal-patrocinadores-list">
+					<li>
+						<img class="pr-5" src="img/logo/logo_fisio.png" alt="Logo da Aest" style="height: 80px">
+
+					</li>
+					<li>
+							<img class="pr-5" src="img/logo/logo_aest.png" alt="Logo da Aest" style="height: 80px">
+					</li>
+					<li>
+
+						<img src="img/logo/logo_es.png" alt="Logo do ES" style="height: 100px">
+						</a>
+					</li>
+				</ul>
+			<p class="text-center"  style="font-size: 13px; margin: 40px 0 0 0; line-height: 1.5;">© 2020 CT ARY <br >By <a href="https://github.com/trovati">Watson Matos</a></p>
+				
+				
+		</section>
+    
+    
+    
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+
+</html>
