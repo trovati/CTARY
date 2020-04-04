@@ -31,7 +31,7 @@
                                 <a class="nav-link" href="atletas.html">Equipe</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contato</a>
+                                <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Contato</a>
                             </li>
                         </ul>
                     </div>
@@ -236,6 +236,51 @@
             </div>
           </section>
         </main>
+        <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Entre em Contato</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Nome Completo</label>
+                            <input type="text" class="form-control mt-1 mb-3" id="formGroupExampleInput" placeholder="José da Silva">
+                            <label for="formGroupExampleInput">Telefone</label>
+                            <input type="phone" class="form-control mt-1 mb-3" id="formGroupExampleInput" placeholder="(XX)9-XXXX-XXXX">
+          
+                          <label for="exampleFormControlInput1">E-mail</label>
+                          <input type="email" class="form-control mt-1 mb-3" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">Categoria</label>
+                          <select class="form-control mt-1 mb-3" id="exampleFormControlSelect1">
+                            <option>Sub-17</option>
+                            <option>Sub-19</option>
+                            <option>Sub-21</option>
+                            <option>Adulto</option>
+                            <option>Master</option>
+                          </select>
+                        </div>
+                        
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Dúvida</label>
+                          <textarea class="form-control mt-1 mb-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--RODAPé-->
         <footer>
             <section class="rodapePrincipal-patrocinadores">
 				<h3 class="text-center pb-3 pb-3 apoio">Apoio</h3>
