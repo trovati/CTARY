@@ -143,19 +143,19 @@
 		  </button>
 		</div>
 		<div class="modal-body">
-			<form>
+			<form class="form" method="POST" action="./email.php">
 				<div class="form-group">
 					<label for="formGroupExampleInput">Nome Completo</label>
-    				<input type="text" class="form-control mt-1 mb-3" id="formGroupExampleInput" placeholder="José da Silva">
+    				<input type="text" class="form-control mt-1 mb-3" id="formGroupExampleInput" name="name" placeholder="José da Silva">
 					<label for="formGroupExampleInput">Telefone</label>
-    				<input type="phone" class="form-control mt-1 mb-3" id="formGroupExampleInput" placeholder="(XX)9-XXXX-XXXX">
+    				<input type="phone" class="form-control mt-1 mb-3" id="formGroupExampleInput" name="telefone" placeholder="(XX)9-XXXX-XXXX">
   
 				  <label for="exampleFormControlInput1">E-mail</label>
-				  <input type="email" class="form-control mt-1 mb-3" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+				  <input type="email" class="form-control mt-1 mb-3" id="exampleFormControlInput1" name="email" placeholder="nome@exemplo.com">
 				</div>
 				<div class="form-group">
 				  <label for="exampleFormControlSelect1">Categoria</label>
-				  <select class="form-control mt-1 mb-3" id="exampleFormControlSelect1">
+				  <select class="form-control mt-1 mb-3"  name="select" id="exampleFormControlSelect1">
 					<option>Sub-17</option>
 					<option>Sub-19</option>
 					<option>Sub-21</option>
@@ -166,7 +166,7 @@
 				
 				<div class="form-group">
 				  <label for="exampleFormControlTextarea1">Dúvida</label>
-				  <textarea class="form-control mt-1 mb-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+				  <textarea class="form-control mt-1 mb-3" id="exampleFormControlTextarea1" name="mensage" rows="3"></textarea>
 				</div>
 			  </form>
 		</div>
