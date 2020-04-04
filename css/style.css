@@ -50,6 +50,7 @@ body {
 
 .imagem-carrossel-1{
 	object-fit: cover;
+	object-position: 0 10%;
 	height: 400px;
 	
 }
