@@ -1,30 +1,24 @@
 <?php
+$destinatario = "watsontrovati@gmail.com";
 
-if(isset($_POST['email']) && !empty($_POST['email'])){
+$nome = $_REQUEST['nome'];
+$email = $_REQUEST['email'];
+$mensagem = $_REQUEST['mensagem'];
+$assunto = $_REQUEST['assunto'];
 
-$nome = addslashes($_POST['name']);
-$phone = addslashes($_POST['telefone']);
-$email = addslashes($_POST['email']);
-$categoria = addslashes($_POST['select']);
-$mensagem = addslashes($_POST['mensage']);
-}
+ // monta o e-mail na variavel $body
 
-$to = "watsontrovati@gmail.com";
-$subject = "Contato - CT ARY";
-$body = "Nome: " .$nome."\n".
-        "Telefone: ".$phone."\n".
-        "Email: ".$email."\n".
-        "Categoria".$categoria."\n".
-        "Mensagem: ".$mensagem;
+$body = "===================================" . "\n";
+$body = $body . "FALE CONOSCO - TESTE COMPROVATIVO" . "\n";
+$body = $body . "===================================" . "\n\n";
+$body = $body . "Nome: " . $nome . "\n";
+$body = $body . "Email: " . $email . "\n";
+$body = $body . "Mensagem: " . $mensagem . "\n\n";
+$body = $body . "===================================" . "\n";
 
-$header = "From: watsontrovati@hotmail.com"."\r\n".
-            "Reply-To:".$email."\e\n".
-            "X=Mailer:PHP/".phpversion();
+// envia o email
+mail($destinatario, $assunto , $body, "From: $email\r\n");
 
-if(mail($to,$subject,$body,$header)){
-    echo("Email Enviado com Sucesso");
-} else{
-    echo("Email não enviado");
-}
-
+// redireciona para a página de obrigado
+header("location:obrigado.htm");
 ?>
