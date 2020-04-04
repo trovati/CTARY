@@ -22,9 +22,9 @@ $header = "From: watsontrovati@hotmail.com"."\r\n".
             "X=Mailer:PHP/".phpversion();
 
 if(mail($to,$subject,$body,$header)){
-    echo("Email Enviado com Sucesso")
+    echo("Email Enviado com Sucesso");
 } else{
-    echo("Email não enviado")
+    echo("Email não enviado");
 }
 
 ?>
