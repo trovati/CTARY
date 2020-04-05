@@ -41,6 +41,8 @@ body {
 
 .banner{
 	object-fit: cover;
+	background: url(https://C:\Users\HP\Documents\SiteAry\img);
+	opacity: 0.5;
 }
 
 .fonte-titulo{
@@ -49,6 +51,7 @@ body {
 }
 
 .imagem-carrossel-1{
+	opacity: 0.5;
 	object-fit: cover;
 	object-position: 0 5%;
 	height: 400px;
@@ -68,6 +71,8 @@ body {
 }
 
 .imagem-carrossel-4{
+	opacity: 0.5;
+
 	object-fit: cover;
 	object-position: 0 2.5%;
 	height: 400px;
@@ -173,13 +178,14 @@ color: black;
 	margin-left: 14%!important;
 
 	}
-}
+
 
 @media (max-width: 415px){
 	.imagem-carrossel-1{
 		object-fit: cover;
 		object-position: 50% 10%;
 		height: 400px;
+		
 		
 	}
 	
