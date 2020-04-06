@@ -39,6 +39,8 @@ body {
 
 }
 
+
+
 .banner{
 	object-fit: cover;
 	background: url(https://C:\Users\HP\Documents\SiteAry\img);
@@ -59,12 +61,16 @@ body {
 }
 
 .imagem-carrossel-2{
+	opacity: 0.5;
+
 	object-fit: cover;
 	object-position: 0 50%;
 	height: 400px;
 }
 
 .imagem-carrossel-3{
+	opacity: 0.5;
+
 	object-fit: cover;
 	object-position: 0 2.5%;
 	height: 400px;
@@ -100,6 +106,10 @@ padding-bottom: 20px;
 
 .atletas{
 	background-color:#324C64;
+}
+
+.atletas2{
+	background-color: #800080;
 }
 
 .instagram {
