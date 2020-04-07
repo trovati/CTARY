@@ -52,6 +52,12 @@ body {
 	color: white;
 }
 
+.fonte-caroseul{
+	font-family: 'Titan One', cursive;
+		color: white;
+
+}
+
 .imagem-carrossel-1{
 	opacity: 0.5;
 	object-fit: cover;
@@ -80,7 +86,7 @@ body {
 	opacity: 0.5;
 
 	object-fit: cover;
-	object-position: 0 2.5%;
+	object-position: 0 10%;
 	height: 400px;
 }
 
